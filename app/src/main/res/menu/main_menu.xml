@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_recycler_view"
+        android:title="Recycler View" />
+    <item
+        android:id="@+id/menu_item_linear_layout"
+        android:title="Dynamic Linear Layout" />
+    <item
+        android:id="@+id/menu_item_1"
+        android:title="@string/title_activity_visibility_example" />
+    <item
+        android:id="@+id/menu_item_2"
+        android:title="Secundary Activity" />
+</menu>

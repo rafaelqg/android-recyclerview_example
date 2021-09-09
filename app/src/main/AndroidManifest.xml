@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.P20212">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.P20212">
+        <activity
+            android:name=".ActivityDynamicLinearLayout"
+            android:label="@string/title_activity_dynamic_linear_layout"
+            android:theme="@style/Theme.P20212.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityRecyclerView" android:theme="@style/Theme.P20212.NoActionBar"  android:label="RecyclerView">
+
+        </activity>
+        <activity
+            android:name=".SecundaryActivity"
+            android:label="@string/title_activity_secundary"
+            android:theme="@style/Theme.P20212.NoActionBar" />
+        <activity
+            android:name=".VisibilityExample"
+            android:label="@string/title_activity_visibility_example"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.P20212.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".Activity19082021"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
